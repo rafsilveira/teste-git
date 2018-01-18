@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-oi oi oi 
+oi oi oi
 
 
 #content {
@@ -12,10 +12,10 @@ oi oi oi
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: minmax(100px, auto);
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
         "header header header header header header" 
         "aside aside aside nav nav nav" 
-        "aside aside aside nav nav nav" 
+        "aside aside aside nav nav nav"
         "main main main nav nav nav" 
         "section section section section section section" 
         "footer footer footer footer footer footer"
@@ -30,11 +30,10 @@ oi oi oi
 @media only screen and (max-width: 767px) {
 
     #content {
-        
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "aside"
         "nav"
